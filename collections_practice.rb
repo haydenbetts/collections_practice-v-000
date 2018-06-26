@@ -37,8 +37,10 @@ def swap_elements_from_to(array, i, j)
 end
 
 def reverse_array(array)
+  reversed_array = []
+  while 
   array.each_with_index do |elt, i|
     
   end
-    
+
 end
