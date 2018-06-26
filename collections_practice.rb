@@ -62,3 +62,7 @@ end
 def sum_array(array)
   array.inject { |acc, elt| acc += elt }
 end
+
+def add_s(array)
+  
+end
