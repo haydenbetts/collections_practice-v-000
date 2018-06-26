@@ -64,5 +64,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  array.each_with_index.map do |elt, index|
+    unless index == 1
+      elt << 's'
+    end
+  end
 end
