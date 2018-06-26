@@ -52,3 +52,7 @@ def kesha_maker(array)
     elt
   end
 end
+
+def find_a(array)
+  
+end
