@@ -66,7 +66,5 @@ end
 def add_s(array)
   array.each_with_index.map do |elt, index|
     index == 1 ? elt : elt << 's'
-      elt
-    end
   end
 end
