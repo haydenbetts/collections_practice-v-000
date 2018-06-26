@@ -38,9 +38,10 @@ end
 
 def reverse_array(array)
   reversed_array = []
+  i = array.length
   while 
   array.each_with_index do |elt, i|
-    
+
   end
 
 end
