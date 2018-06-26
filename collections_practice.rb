@@ -46,6 +46,8 @@ def reverse_array(array)
   reversed_array
 end
 
-def kesha_maker
-  
+def kesha_maker(array)
+  array.collect do |elt|
+      elt[2] = $
+  end
 end
