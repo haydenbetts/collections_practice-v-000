@@ -65,8 +65,8 @@ end
 
 def add_s(array)
   array.each_with_index.map do |elt, index|
-    unless index == 1
-      elt << 's'
+    index == 1 ? elt : elt << 's'
+      elt
     end
   end
 end
