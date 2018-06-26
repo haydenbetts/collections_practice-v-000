@@ -48,6 +48,6 @@ end
 
 def kesha_maker(array)
   array.collect do |elt|
-      elt[2] = $
+    elt[2] = '$'
   end
 end
